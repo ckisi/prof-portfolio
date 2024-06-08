@@ -1,3 +1,7 @@
+body {
+    background-color: #d3d3d4;
+}
+
 .navbar {
     display: flex;
     background-color: #25282b;
@@ -8,35 +12,52 @@
     align-items: center;
 }
 
-
-  
-  .nav-item {
+.nav-item {
     padding: 10px;
     text-decoration: none;
     color: #4bc3aa;
-  }
+}
   
-  .nav-item:hover {
+.nav-item:hover {
     background-color: #555;
-  }
+}
 
 .navdiv {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-    li {
+
+li {
         display: inline-block;
         margin: 25px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 100%;
         font-weight: 400;
 
-    }
+}
 
-    header {
+header {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 200%;
         font-weight: 400;
         color: #4bc3aa;
-    }
+}
+
+.aboutme {
+    display: flex;
+    padding: 40px, 40px, 40px, 40px;
+    justify-content: center;
+}
+
+.header2 {
+    font-size: 300%;
+    font-weight: 300;
+    padding: 40px;
+    color: #004b91
+}
+
+section>p {
+    padding: 40px;
+    color: #004b91
+}
