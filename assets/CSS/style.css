@@ -43,7 +43,7 @@ li {
 
 header {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 200%;
+        font-size: 280%;
         font-weight: 400;
         color: #4bc3aa;
 }
@@ -59,7 +59,6 @@ header {
 
 .aboutme {
     display: flex;
-    padding: 40px, 40px, 40px, 40px;
     justify-content: center;
 }
 
@@ -67,7 +66,7 @@ header {
     font-size: 300%;
     font-weight: 300;
     padding-right: 50px;
-    padding-left: 50px;
+    padding-left: 15%;
     padding-top: 50px;
     color: #013668;
 }
@@ -91,7 +90,7 @@ display: flex;
     height: 25%;
     width: 50%;
     border: 7px solid #4bc3aa;
-    transform: rotate(2deg);
+    transform: rotate(3deg);
     box-shadow: 5px 10px 20px #555;
 }
 
@@ -106,7 +105,7 @@ display: flex;
     width: 17%;
     margin: 5%;
     border: 7px solid #4bc3aa;
-    transform: rotate(2deg);
+    transform: rotate(3deg);
     box-shadow: 5px 10px 20px #555;
 }
 
@@ -120,6 +119,8 @@ display: flex;
 h3 {
     background-color: #4bc3aa;
     color: #013668;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
 }
 
 .workflex {
@@ -136,6 +137,7 @@ h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 125%;
     font-weight: 300;
+    padding-top: 9%;
 }
 
 h4 {
@@ -143,6 +145,7 @@ h4 {
     font-weight: 400;
     color: #013668;
     padding-right: 10%;
+    padding-left: 1%;
 }
 
 .specialcard:hover {
@@ -153,4 +156,16 @@ h4 {
 .card:hover {
     height: 18%;
     width: 18%;
+}
+
+.profilepic {
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    width: 90%;
+    margin: 3%;
+}
+
+figure>img {
+    border: 10px solid #4bc3aa;
 }
