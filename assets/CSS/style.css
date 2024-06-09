@@ -69,7 +69,7 @@ header {
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 50px;
-    color: #002649;
+    color: #013668;
 }
 
 .work {
@@ -80,7 +80,7 @@ header {
 
 section>p {
     padding: 40px;
-    color: #002649;
+    color: #013668;
 }
 
 .flexcontainer {
@@ -91,7 +91,6 @@ display: flex;
     height: 25%;
     width: 50%;
     border: 7px solid #4bc3aa;
-    margin-left: 30%;
     transform: rotate(2deg);
     box-shadow: 5px 10px 20px #555;
 }
@@ -99,16 +98,13 @@ display: flex;
 #header2 {
     font-size: 300%;
     font-weight: 300;
-    padding-right: 50px;
-    padding-left: 300px;
-    padding-top: 100px;
-    color: #002649;
+    color: #013668;
 }
 
 .card {
-    height:15%;
-    width: 15%;
-    margin: 100px;
+    height:17%;
+    width: 17%;
+    margin: 5%;
     border: 7px solid #4bc3aa;
     transform: rotate(2deg);
     box-shadow: 5px 10px 20px #555;
@@ -117,10 +113,44 @@ display: flex;
 .smallworks {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     padding-left: 20%;
 }
 
 h3 {
     background-color: #4bc3aa;
-    color: #002649;
+    color: #013668;
+}
+
+.workflex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.contactme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: #013668;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 125%;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 210%;
+    font-weight: 400;
+    color: #013668;
+    padding-right: 10%;
+}
+
+.specialcard:hover {
+    height: 26%;
+    width: 51%;
+}
+
+.card:hover {
+    height: 18%;
+    width: 18%;
 }
