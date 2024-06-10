@@ -6,6 +6,7 @@ body {
     background-color: #d3d3d4;
 }
 
+/* Sets the navigation bar */
 .navbar {
     display: flex;
     background-color: #25282b;
@@ -21,7 +22,7 @@ body {
     text-decoration: none;
     color: #4bc3aa;
 }
-  
+/* Makes the navigation bar items change background when hovered on */
 .nav-item:hover {
     background-color: #555;
 }
@@ -41,6 +42,7 @@ li {
 
 }
 
+/* Sets the main header */
 header {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 280%;
@@ -48,6 +50,7 @@ header {
         color: #4bc3aa;
 }
 
+/* This creates the banner under the navigation bar */
 .hero {
     width: 100%;
     height: 200px;
@@ -62,6 +65,7 @@ header {
     justify-content: center;
 }
 
+/* Formats the secondary headers */
 .header2 {
     font-size: 300%;
     font-weight: 300;
@@ -71,21 +75,25 @@ header {
     color: #013668;
 }
 
+/* Formats the entire works section */
 .work {
     display: wrap;
     padding: 40px, 40px, 40px, 40px;
     justify-content: center;
 }
 
+/* This is to change only the text in a p element which is a child of a section element */
 section>p {
     padding: 40px;
     color: #013668;
 }
 
+/* Creates a flex box for the main content */
 .flexcontainer {
 display: flex;
 }
- 
+
+/* This targets the big card out of the 4 cards */
 .specialcard {
     height: 25%;
     width: 50%;
@@ -100,6 +108,7 @@ display: flex;
     color: #013668;
 }
 
+/* This targets the 3 smaller cards out of the 4 */
 .card {
     height:17%;
     width: 17%;
@@ -109,6 +118,7 @@ display: flex;
     box-shadow: 5px 10px 20px #555;
 }
 
+/* This targets the 3 smaller works out of the 4 */
 .smallworks {
     display: flex;
     flex-wrap: wrap;
@@ -148,16 +158,19 @@ h4 {
     padding-left: 1%;
 }
 
+/* Makes the big card get bigger when hovered on */
 .specialcard:hover {
     height: 26%;
     width: 51%;
 }
 
+/* Makes the small cards get bigger when hovered on */
 .card:hover {
     height: 18%;
     width: 18%;
 }
 
+/* This is setting the size of my profile pic */
 .profilepic {
     display: flex;
     justify-content: center;
@@ -166,6 +179,7 @@ h4 {
     margin: 3%;
 }
 
-figure>img {
+.profilepic>img {
     border: 10px solid #4bc3aa;
+    box-shadow: 5px 10px 20px #555;
 }
