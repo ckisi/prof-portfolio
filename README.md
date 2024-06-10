@@ -28,3 +28,7 @@ https://ckisi.github.io/prof-portfolio/
 https://github.com/ckisi/prof-portfolio
 
 # Screenshot
+
+![image](./assets/screenshot1.png)
+![image](./assets/screenshot2.png)
+![image](./assets/screenshot3.png)
