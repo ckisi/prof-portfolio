@@ -22,12 +22,12 @@ https://www.publicdomainpictures.net/en/view-image.php?image=150549&picture=desk
 https://stock.adobe.com/search?k=gaming
 https://www.alamy.com/stock-photo/server-rack.html?sortBy=relevant
 
-# Link
+# Links
 
 https://ckisi.github.io/prof-portfolio/
 https://github.com/ckisi/prof-portfolio
 
-# Screenshot
+# Screenshots
 
 ![image](./assets/screenshot1.png)
 ![image](./assets/screenshot2.png)
