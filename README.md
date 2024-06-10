@@ -1,5 +1,7 @@
 # Professional Portfolio
 
+## Description
+
 This is my portfolio which I made for employers, so that they may see my works and also learn about me. It's intended purpose is to help employers decide whether or not I am a good candidate for a job.
 
 ## Usage
